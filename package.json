@@ -1,11 +1,13 @@
 {
-<<<<<<< HEAD
-  "name": "next",
+  "name": "builder-nextjs-clean-starter",
   "version": "1.0.0",
+  "private": true,
   "description": "For step-by-step instructions using a minimal Next.js app, check out [the Next.js instructions in Builder's Integrating Pages](https://www.builder.io/c/docs/integrating-builder-pages) documentation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -18,17 +20,8 @@
   "bugs": {
     "url": "https://github.com/AizazJamil/builder-nextjs-clean-starter/issues"
   },
-  "homepage": "https://github.com/AizazJamil/builder-nextjs-clean-starter#readme"
-=======
-  "name": "builder-nextjs-clean-starter",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
+  "homepage": "https://github.com/AizazJamil/builder-nextjs-clean-starter#readme",
+   "dependencies": {
     "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -36,5 +29,4 @@
   "engines": {
     "node": "18.x"
   }
->>>>>>> b95c5ffedee5e38e23bd5da904f08771459d248d
 }
