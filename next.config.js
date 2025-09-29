@@ -1,4 +1,5 @@
 module.exports = {
+  basePath: '/next14-pages',
   async headers() {
     return [
       {
